@@ -1,0 +1,115 @@
+.page{ /* general form of pages*/
+    background-color: bisque;
+    margin: 10%;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+
+.header{
+    background-color: lightsalmon;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.content{ /* home page content layout*/
+    
+    max-height:1500px;
+    height:auto;
+    justify-items:center;
+    position: static;
+    display: grid;
+    padding: 1%;
+    row-gap: 1%;
+    
+}
+
+
+.Insertcontent { /* home page content layout*/
+
+    max-height:auto;
+    height: 800px;
+    justify-items: center;
+    display: grid;
+    padding: 1%;
+    row-gap: 1%;
+}
+
+
+.AppointmentContent{
+    
+    height:1000px;
+    display: grid;
+}
+
+
+.mainPageTextBox{
+
+    position :relative;
+    display : flex; 
+    margin : 3%;
+}
+
+.button-group{ /* header part*/
+    position: relative;   
+    display: contents;
+    column-gap: 5%;
+    justify-items:stretch ;
+    align-items: stretch;
+    
+}
+
+.mainPageLogin{
+    display:block;
+    margin:5%;
+    justify-items:left;
+
+
+}
+
+.banner{ /* AboutUs banner place*/
+    display: flex;
+    gap: 5%;
+    padding: 5%;
+    justify-items:stretch ;
+    
+}
+
+
+.listbox{ /*products table */ 
+    
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+
+.footer{    /* footer for all pages*/
+    padding: 1%;
+    background-color: firebrick;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-header{ /* footer place*/
+    justify-content: center;
+}
+
+.footer-groups{ /*footer content */ 
+    display: grid;
+    grid-template-columns: repeat(4, 10% [col]) ;
+    column-gap: 15%;
+    justify-items: flex-start;
+    align-items: stretch;
+
+    color: aliceblue;
+}
+
+
+
+
